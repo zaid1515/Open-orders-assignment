@@ -35,7 +35,7 @@ export default function SearchBar({
           </div>
         </div>
   
-        <div className="flex bg-white border-l border-gray-300 items-center border rounded px-2 flex-1 w-xl">
+        <div className="flex flex-grow items-center bg-white border border-gray-300 rounded px-3 w-full sm:max-w-md">
           <FiSearch />
           <input
             className="ml-2 p-1 w-full focus:outline-none focus:ring-0"
